@@ -130,9 +130,11 @@ $(document).ready( function() {
 				// switch navigation class and logo image
 				if( $(document).scrollTop() > 50 ) {
 					$('.navbar').removeClass('navbar-transparent');
-					$('.navbar-logo img').attr('src', 'assets/img/logo/repute-logo-nav.png');
+					$('.navbar').addClass('navbar-floating');
+					$('.navbar-logo img').attr('src', 'assets/img/logo/repute-logo-light.png');
 				}else {
 					$('.navbar').addClass('navbar-transparent');
+					$('.navbar').removeClass('navbar-floating');
 					$('.navbar-logo img').attr('src', 'assets/img/logo/repute-logo-light.png');
 				}
 			}

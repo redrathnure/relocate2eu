@@ -85,7 +85,7 @@
 	padding: 12px 15px;
 
 	> img {
-		width: 100px;
+		width: 250px;
 	}
 
 	&.navbar-logo-bigger {
@@ -631,6 +631,10 @@ $dark-header-hover-bg-color: darken($dark-header-color, 2%);
 
 	.navbar > .container .navbar-brand {
 		margin-left: 5px;
+
+	}
+	.navbar > .container .navbar-brand > img {
+		width: 150px;
 	}
 }
 
@@ -638,5 +642,21 @@ $dark-header-hover-bg-color: darken($dark-header-color, 2%);
 	.navbar > .container .navbar-brand {
 		margin-left: -10px;
 	}
+
+	@include max-screen($break-medium) {
+		.navbar > .container .navbar-brand {
+			margin-top: -10px;
+		}
+	}
+}
+
+@include min-screen($break-medium + 1px) {
+	.navbar > .container .navbar-brand > img {
+		width: 200px;
+	}
+}
+
+.navbar.navbar-floating > .container .navbar-brand > img {
+	width: 145px;
 }
 
