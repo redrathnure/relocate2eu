@@ -98,6 +98,7 @@ $(document).ready( function() {
 	if($('.hero-unit-fullscreen-slider .slides').length > 0) {
 		$('.hero-unit-fullscreen-slider .slides').maximage({
 			cycleOptions: {
+				timeout: 0,
 				fx: 'fade',
 				prev: '#fullslider-arrow_left',
 				next: '#fullslider-arrow_right',
