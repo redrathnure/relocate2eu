@@ -538,5 +538,12 @@ $(document).ready( function() {
 		$('html').addClass('mobile');
 	}
 
+
+	$("#hero-typed .hero-typed-text").typed({
+        stringsElement: $('#hero-typed .hero-typed-strings'),
+        loop: true,
+        contentType: 'text',
+		typeSpeed: 0
+	});
 });
 
