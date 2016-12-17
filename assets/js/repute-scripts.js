@@ -539,8 +539,8 @@ $(document).ready( function() {
 	}
 
 
-	$("#hero-typed .hero-typed-text").typed({
-        stringsElement: $('#hero-typed .hero-typed-strings'),
+	$("#promo .hero-typed .hero-typed-text").typed({
+        stringsElement: $('#promo .hero-typed .hero-typed-strings'),
         loop: true,
         contentType: 'text',
 		typeSpeed: 0
