@@ -5,7 +5,7 @@ jQuery( function($){
 	/*---------------------*/
 
 	// navigation scrolling
-	$('#main-nav, .hero-left').localScroll({
+	$('#main-nav, .hero-left, .pricing-item').localScroll({
 		duration: 1000,
 		easing: 'easeInOutExpo'
 	});
