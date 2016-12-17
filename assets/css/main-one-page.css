@@ -6835,3 +6835,7 @@ ul.sidebar-nav li.has-submenu.active li.active > a {
     display: none;
   }
 }
+.team .img-circle {
+  width: 120px;
+  height: 120px;
+}
