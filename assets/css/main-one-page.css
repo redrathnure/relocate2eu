@@ -6814,12 +6814,12 @@ ul.sidebar-nav li.has-submenu.active li.active > a {
 
 #promo .hero-typed {
   position: absolute;
-  top: 40px;
+  top: 80px;
   right: 5%;
   left: 40%;
-  padding: 40px 50px;
+  padding: 20px 40px;
   min-height: 50px;
-  border-radius: 60px;
+  border-radius: 40px;
   font-size: 30px;
   text-shadow: 0 0 10px  #fff;
   background-color: rgba(0, 0, 0, 0.4);
