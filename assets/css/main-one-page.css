@@ -3232,7 +3232,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .navbar-default.navbar-transparent {
   width: 100%;
   position: absolute;
-  top: 20px;
   border-bottom: none;
   background-color: transparent;
   z-index: 1;
