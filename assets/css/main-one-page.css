@@ -6831,7 +6831,7 @@ ul.sidebar-nav li.has-submenu.active li.active > a {
 }
 
 @media (max-width: 767px) {
-  .hero-unit-fullscreen-slider .slides {
+  #promo {
     display: none;
   }
 }
