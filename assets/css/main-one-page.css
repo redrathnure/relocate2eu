@@ -6806,7 +6806,8 @@ ul.sidebar-nav li.has-submenu.active li.active > a {
   position: relative;
 }
 
-#promo .video {
+#promo .video,
+#promo .video-still {
   width: 100%;
   position: relative;
 }
@@ -6830,7 +6831,13 @@ ul.sidebar-nav li.has-submenu.active li.active > a {
 }
 
 @media (max-width: 767px) {
-  #promo {
+  #promo .video,
+  #promo .hero-typed {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #promo .video-still {
     display: none;
   }
 }
