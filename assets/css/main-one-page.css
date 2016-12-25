@@ -4725,9 +4725,10 @@ div[class*="col-"] > .form-group {
 
 .testimonial-with-bg {
   padding: 120px 0;
-  background-image: url('../img/testimonial-bg.png?1424859188');
+  background-image: url('../img/testimonial-bg.jpg?1482595182');
   background-attachment: fixed;
   background-position: center center;
+  background-size: cover;
   color: #fff;
 }
 .testimonial-with-bg .testimonial-body p {
