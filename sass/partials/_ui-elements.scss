@@ -144,7 +144,7 @@
 
 		.boxed-content-title,
 		p {
-			padding-left: 80px;
+			padding: 0 4% 0 80px;
 		}
 	}
 }
@@ -255,7 +255,10 @@
 
 .testimonial-with-bg {
 	padding: 120px 0;
-	background-image: image-url('testimonial-bg.jpg');
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.1)
+    ), image-url('testimonial-bg.jpg');
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
@@ -284,11 +287,6 @@
 			}
 		}
 	}
-}
-
-.mobile .testimonial-with-bg {
-	background-attachment: inherit;
-	background-position: center -35em;
 }
 
 @include max-screen($break-xsmall) {
