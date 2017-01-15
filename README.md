@@ -10,4 +10,4 @@
 
 	gem update --system
 	gem install compass
-	compass compile
+	compass watch # compile
