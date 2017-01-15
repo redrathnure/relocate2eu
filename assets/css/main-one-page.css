@@ -4725,7 +4725,7 @@ div[class*="col-"] > .form-group {
 
 .testimonial-with-bg {
   padding: 120px 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/testimonial-bg.jpg?1484491842');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('../img/testimonial-bg.jpg?1484491842');
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -6814,7 +6814,7 @@ ul.sidebar-nav li.has-submenu.active li.active > a {
   right: 5%;
   left: 40%;
   padding: 20px 40px;
-  min-height: 50px;
+  min-height: 50%;
   border-radius: 40px;
   font-size: 30px;
   text-shadow: 0 0 10px  #fff;
