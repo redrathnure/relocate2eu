@@ -1,3 +1,7 @@
+# Deploy
+
+https://kas.all-inkl.com/
+
 # Develop
 
 ## run
