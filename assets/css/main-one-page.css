@@ -21,7 +21,7 @@ body {
   line-height: 1.6;
 }
 body.layout-boxed {
-  background-image: url('../img/gray_jean.png?1353431454');
+  background-image: url('../img/gray_jean.png?1484491842');
   background-repeat: repeat;
   background-color: #ccc;
 }
@@ -158,13 +158,13 @@ hr {
 }
 .page-header.has-background-image {
   padding: 40px 0;
-  background-image: url('../img/page-header-bg.png?1445256634');
+  background-image: url('../img/page-header-bg.png?1484491842');
   background-repeat: no-repeat;
   background-position: center;
 }
 .page-header.has-background-pattern {
   padding: 40px 0;
-  background-image: url('../img/pattern-geometry.png?1375813318');
+  background-image: url('../img/pattern-geometry.png?1484491842');
   background-repeat: repeat;
 }
 @media screen and (max-width: 768px) {
@@ -470,7 +470,7 @@ footer .social-icons.light-icons a:hover {
 
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url('../img/bx_loader.gif?1377959386') center center no-repeat;
+  background: #fff url('../img/bx_loader.gif?1484491842') center center no-repeat;
 }
 
 /* Icons */
@@ -3581,7 +3581,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .hero-unit-animated {
   padding: 100px 0;
   color: #fff;
-  background-image: url('../img/hero-unit-bg.png?1420782290');
+  background-image: url('../img/hero-unit-bg.png?1484491842');
   background-repeat: no-repeat;
   background-position: center -75px;
 }
@@ -3795,7 +3795,7 @@ html.fullscreen .wrapper {
   font-size: 2em;
   text-align: center;
   color: #fff;
-  background-image: url('../img/fullscreen-bg.jpg?1444709616');
+  background-image: url('../img/fullscreen-bg.jpg?1484491842');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -4628,7 +4628,7 @@ div[class*="col-"] > .form-group {
 }
 .boxed-content.left-boxed-icon .boxed-content-title,
 .boxed-content.left-boxed-icon p {
-  padding-left: 80px;
+  padding: 0 4% 0 80px;
 }
 
 /* testimonial */
@@ -4725,7 +4725,7 @@ div[class*="col-"] > .form-group {
 
 .testimonial-with-bg {
   padding: 120px 0;
-  background-image: url('../img/testimonial-bg.jpg?1482595182');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('../img/testimonial-bg.jpg?1484491842');
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -4747,11 +4747,6 @@ div[class*="col-"] > .form-group {
 }
 .testimonial-with-bg .testimonial.slick-carousel .slick-next:hover, .testimonial-with-bg .testimonial.slick-carousel .slick-prev:hover {
   background-color: rgba(255, 255, 255, 0.08);
-}
-
-.mobile .testimonial-with-bg {
-  background-attachment: inherit;
-  background-position: center -35em;
 }
 
 @media screen and (max-width: 480px) {
@@ -6050,7 +6045,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
   font-size: 28px;
 }
 .multiple-pricing-table .pricing-badge {
-  background-image: url('../img/badge.png?1411980248');
+  background-image: url('../img/badge.png?1484491842');
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
